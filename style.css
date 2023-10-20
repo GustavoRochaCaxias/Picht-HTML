@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+body {
+    box-sizing: border-box;
+    background-color:black;
+    color:white;
+    height: 100vh;
+ }
+
+ .cabecalho {
+     display: flex;
+     justify-content: space-between;
+     list-style-type: none;
+     padding: 30px 4%;
+    
+     
+ }
+
+
+ .cabecalho_links{
+    background-color: aqua;
+    border-radius: 6px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+
+
+}
+
+ strong{
+    color: blue;
+ }
+ 
+ .imagens{
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+ img {
+    max-width: 32%;
+    margin: 11%;
+}
+
+
+
+.container {
+    margin: 80px;
+    font-family:'Montserrat', sans-serif ;
+    
+    
+
+}
+
+.container h1{
+
+    font-size: 30px;
+
+}
+
+footer section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  footer span{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    opacity: 0.9;
+  }
+
+   /*  Começo da estilização da Pagina Proposta*/
+
+.cabecalho_proposta{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 15px 4% 
+
+}
+
+.cabecalho_links_proposta {
+    background-color:aqua;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+.especialidades{
+    font-family:'Montserrat', sans-serif ;
+    margin: 80px;
+    
+}
+
+.especialidades .flex{
+    gap: 60px;
+}
+
+h2{
+    font-size: 26px;
+    text-align: center;
+}
+
+.especialidades-box{
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+
+}
+
+.especialidades-box:hover{
+    transform: sale(1.05);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.267);
+}
+
+.especialidades-box i{
+    font-size: 40px;
+    color: blue;
+}
+
+.especialidades-box h3{
+    font-size: 22px;
+    margin: 7px 0;
+}
+
+footer i{
+    font-size: 25px;
+    color: blue;
+}
+
+/* Estilização da pagina Equipe*/
+
+.contato{
+   font-size: 12px;
+}
+
+.menu{
+    max-width: 590px;
+    border-radius: 25px;
+}
